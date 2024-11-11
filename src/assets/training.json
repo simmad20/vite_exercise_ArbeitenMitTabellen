@@ -1,0 +1,12 @@
+[
+  {"kategorie": "running", "name": "Yates", "herzfrequenzen": [130, 150, 160, 175]},
+  {"kategorie": "cycling", "name": "Yates", "herzfrequenzen": [145, 155, 165, 180]},
+  {"kategorie": "cycling", "name": "Yates", "herzfrequenzen": [135, 145, 155, 170]},
+  {"kategorie": "swimming", "name": "Phelps", "herzfrequenzen": [140, 160, 170, 185]},
+  {"kategorie": "swimming", "name": "Phelps", "herzfrequenzen": [125, 140, 150, 165]},
+  {"kategorie": "running", "name": "Bolt", "herzfrequenzen": [130, 150, 160, 175]},
+  {"kategorie": "running", "name": "Bolt", "herzfrequenzen": [140, 160, 170, 185]},
+  {"kategorie": "running", "name": "Melli", "herzfrequenzen": [135, 145, 155, 170]},
+  {"kategorie": "cycling", "name": "Renshaw", "herzfrequenzen": [130, 150, 160, 175]},
+  {"kategorie": "cycling", "name": "Renshaw", "herzfrequenzen": [145, 155, 165, 180]}
+]

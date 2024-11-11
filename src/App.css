@@ -1,0 +1,166 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+/* Styling für allgemeine Buttons */
+button, .color-button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover, .color-button:hover {
+  border-color: #646cff;
+}
+
+button:focus, .color-button:focus {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* Farben für Buttons */
+.color-button.green {
+  background-color: green;
+}
+
+.color-button.red {
+  background-color: red;
+}
+
+/* Wenn ausgewählt, hebe den Button hervor */
+.color-button.selected {
+  border: 2px solid white;
+}
+
+/* Hover-Zustand für grüne Buttons */
+.color-button.green:hover {
+  background-color: #388e3c;
+}
+
+/* Hover-Zustand für rote Buttons */
+.color-button.red:hover {
+  background-color: #d32f2f;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+
+  button, .color-button {
+    background-color: #f9f9f9;
+  }
+}
+
+/* Tabellen Styling */
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.thead th {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+tbody td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+/* Hover-Effekt für Tabellenzellen */
+tbody td:hover {
+  background-color: #555;
+  cursor: pointer;
+}
+
+/* Styling für besetzte und ausgewählte Zellen */
+td.occupied {
+  background-color: red !important;
+}
+
+td.selected {
+  background-color: green !important;
+}
+
+/* Container Styles */
+.container_root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Styling für Links */
+.link {
+  color: #1e90ff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.link:hover {
+  background-color: #e6f7ff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
